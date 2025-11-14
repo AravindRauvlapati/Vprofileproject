@@ -1,10 +1,11 @@
+// ...existing code...
 # Prerequisites
-#
-- JDK 11 
-- Maven 3 
+
+- JDK 11
+- Maven 3
 - MySQL 8
 
-# Technologies 
+# Technologies
 - Spring MVC
 - Spring Security
 - Spring Data JPA
@@ -13,13 +14,19 @@
 - Tomcat
 - MySQL
 - Memcached
-- Rabbitmq
-- ElasticSearch
+- RabbitMQ
+- Elasticsearch
+
 # Database
-Here,we used Mysql DB 
-sql dump file:
+Here we use a MySQL database.
+SQL dump files:
 - /src/main/resources/db_backup.sql
-- db_backup.sql file is a mysql dump file.we have to import this dump to mysql db server
-- > mysql -u <user_name> -p accounts < db_backup.sql
+- db_backup.sql is a MySQL dump file. Import it into your MySQL server with:
 
+```bash
+mysql -u <user_name> -p accounts < db_backup.sql
+```
 
+# Vprofileproject
+Created a vprofileproject for building pipelines
+// ...existing code...
